@@ -21,6 +21,7 @@ const posts = [
 					"Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
 			},
 			{ type: "link", content: "jane.design/doctorcare" },
+			{ type: "link", content: "#developer" },
 		],
 		publishedAt: new Date("2023-04-19 20:00:00"),
 	},
