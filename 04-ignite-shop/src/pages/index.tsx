@@ -7,14 +7,14 @@ import { useKeenSlider } from 'keen-slider/react'
 import { HomeContainer, Product } from "../styles/pages/home"
 
 import "keen-slider/keen-slider.min.css"
-import { stripe } from "@/lib/stripe"
+import { stripe } from "../lib/stripe"
 
 interface HomeProps {
   products: {
     id: string
     name: string
     imageUrl: string
-    price: number
+    price: string
   }[]
 }
 
